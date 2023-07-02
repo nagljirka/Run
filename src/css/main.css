@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -42,7 +46,76 @@ body {
   color: #fff;
   margin-left: 10px;
 }
+.header-icons {
+  position: relative;
+  z-index: 99;
+}
 .header-icons img {
   margin-left: 20px;
   cursor: pointer;
+}
+
+.offer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.offer-left {
+  width: 40%;
+}
+.offer-right {
+  width: 60%;
+}
+.offer-header {
+  font-size: 128px;
+  letter-spacing: -3px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.offer-desc {
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 100px;
+}
+.offer-buttons a {
+  padding: 30px 60px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 3px solid #093CB5;
+  width: 300px;
+  text-align: center;
+  margin-right: 30px;
+  transition: 0.2s;
+}
+.offer-buttons a.btn-blue {
+  background-color: #093CB5;
+  color: #fff;
+}
+.offer-buttons a.btn-blue:hover {
+  background-color: transparent;
+  color: #093CB5;
+}
+.offer-buttons a.btn-white {
+  color: #093CB5;
+  border: 3px solid transparent;
+  position: relative;
+}
+.offer-buttons a.btn-white::before {
+  content: "";
+  background-image: url("../img/CallMe.svg");
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25px;
+}
+.offer-buttons a.btn-white:hover {
+  border: 3px solid #093CB5;
+}
+.offer-image img {
+  width: 100%;
+  margin-top: -150px;
 }/*# sourceMappingURL=main.css.map */
