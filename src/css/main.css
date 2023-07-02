@@ -55,6 +55,9 @@ body {
   cursor: pointer;
 }
 
+.offer {
+  padding-bottom: 240px;
+}
 .offer-wrap {
   display: flex;
   justify-content: space-between;
@@ -118,4 +121,39 @@ body {
 .offer-image img {
   width: 100%;
   margin-top: -150px;
+}
+
+.why-header {
+  font-size: 96px;
+  line-height: 100px;
+  color: #fff;
+  letter-spacing: -2px;
+  margin-bottom: 150px;
+}
+.why-wrap {
+  background-image: url("../img/why-bg2.png");
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  padding: 80px 100px;
+  background-size: cover;
+  background-position: center center;
+}
+.why-items {
+  display: flex;
+  justify-content: space-between;
+}
+.why-item {
+  width: 30%;
+}
+.why-item img {
+  margin-bottom: 25px;
+}
+.why-item p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.why-item p span {
+  color: rgba(251, 251, 251, 0.45);
 }/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 $main: #093CB5
 $white: #fff
 $black: #000000
+$grey: rgba(251, 251, 251, 0.45)
 
 
 *
@@ -50,6 +51,7 @@ body
         
 
 .offer
+    padding-bottom: 240px
     &-wrap
         display: flex
         justify-content: space-between
@@ -105,4 +107,34 @@ body
         img
             width: 100%
             margin-top: -150px
+
+
+.why
+    &-header
+        font-size: 96px
+        line-height: 100px
+        color: $white
+        letter-spacing: -2px
+        margin-bottom: 150px
+    &-wrap
+        background-image: url("../img/why-bg2.png")
+        background-repeat: no-repeat
+        border-radius: 100px
+        padding: 80px 100px
+        background-size: cover
+        background-position: center center
+    &-items
+        display: flex
+        justify-content: space-between
+    &-item
+        width: 30%
+        img
+            margin-bottom: 25px
+        p
+            color: $white
+            font-weight: 700
+            font-size: 36px
+            line-height: 40px
+            span
+                color: $grey
             
