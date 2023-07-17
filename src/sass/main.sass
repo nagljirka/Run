@@ -2,6 +2,8 @@ $main: #093CB5
 $white: #fff
 $black: #000000
 $grey: rgba(251, 251, 251, 0.45)
+$dark: rgba(0, 0, 0, 0.65)
+$orange:#FF7474
 
 
 *
@@ -137,4 +139,101 @@ body
             line-height: 40px
             span
                 color: $grey
-            
+
+.scooters
+    padding: 250px 0
+    &-headwrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 130px
+    &-arrows
+        display: flex
+        > div
+            background:rgba(0, 0, 0, 0.03)
+            width: 33px
+            height: 33px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 10px
+            margin-left: 20px
+            cursor: pointer
+
+    &-header
+        font-size: 96px
+        line-height: 100px
+        letter-spacing: -2px
+        font-weight: 700
+        margin-top: 0
+    &-slider
+        display: flex
+        justify-content: space-between
+    &-item
+        width: 48%
+        display: flex !important
+        justify-content: space-between
+        padding: 60px 60px 0
+        background: #fbfbfb
+        border: 1px solid rgba(0, 0, 0, 0.03)
+        box-shadow: 0px 25px 15px rgba(155, 161, 167, 0.2)
+        border-radius: 40px
+    &-left
+        width: 45%
+    &-right
+        width: 55%
+        display: flex
+        justify-content: flex-end
+        position: relative
+    &-text
+        font-size: 36px
+        line-height: 40px
+        color: $black
+        font-weight: 700
+        margin-bottom: 30px
+        margin-top: 0
+    &-desc
+        font-size: 22px
+        line-height: 30px
+        color: $dark
+        margin-bottom: 50px
+    &-btn
+        background-color: $main
+        color: $white
+        padding: 20px
+        display: inline-block
+        border-radius: 28px
+        width: 220px
+        cursor: pointer
+        &__label
+            display: flex
+            align-items: center
+            margin-bottom: 15px
+            img
+                margin-right: 10px
+            span
+                font-size: 18px
+                line-height: 26px
+        strong
+            font-size: 36px
+            font-weight: 700
+            line-height: 40px
+    &-label
+        position: absolute
+        top: 0px
+        right: 0px
+        color: $white
+        font-size: 22px
+        line-height: 30px
+        font-weight: 700
+        padding: 16px
+        background-color: $orange
+        box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px #9BA1A705
+        border-radius: 20px
+
+.slick-slide
+    margin: 0 15px 50px
+.slick-list
+    margin: 0 -15px
+
+

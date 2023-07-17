@@ -156,4 +156,118 @@ body {
 }
 .why-item p span {
   color: rgba(251, 251, 251, 0.45);
+}
+
+.scooters {
+  padding: 250px 0;
+}
+.scooters-headwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.scooters-arrows {
+  display: flex;
+}
+.scooters-arrows > div {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.scooters-header {
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.scooters-slider {
+  display: flex;
+  justify-content: space-between;
+}
+.scooters-item {
+  width: 48%;
+  display: flex !important;
+  justify-content: space-between;
+  padding: 60px 60px 0;
+  background: #fbfbfb;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 25px 15px rgba(155, 161, 167, 0.2);
+  border-radius: 40px;
+}
+.scooters-left {
+  width: 45%;
+}
+.scooters-right {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.scooters-text {
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.scooters-desc {
+  font-size: 22px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 50px;
+}
+.scooters-btn {
+  background-color: #093CB5;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 28px;
+  width: 220px;
+  cursor: pointer;
+}
+.scooters-btn__label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.scooters-btn__label img {
+  margin-right: 10px;
+}
+.scooters-btn__label span {
+  font-size: 18px;
+  line-height: 26px;
+}
+.scooters-btn strong {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.scooters-label {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 16px;
+  background-color: #FF7474;
+  box-shadow: 0px 2.7672564983px 2.2138051987px 0px rgba(155, 161, 167, 0.0196078431);
+  border-radius: 20px;
+}
+
+.slick-slide {
+  margin: 0 15px 50px;
+}
+
+.slick-list {
+  margin: 0 -15px;
 }/*# sourceMappingURL=main.css.map */
